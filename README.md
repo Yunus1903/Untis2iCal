@@ -1,6 +1,6 @@
 # Untis2iCal
 
-Untis2iCal is a python program the generates iCal files from [WebUntis](https://webuntis.com/) timetables.
+Untis2iCal is a python program that generates iCal files from [WebUntis](https://webuntis.com/) timetables.
 
 ## Dependencies
 
@@ -19,7 +19,7 @@ Before running the script, your account credentials and timetables need to be co
 ## Usage
 Just run `main.py` and the .ics files will be generated inside the folder specified in `config.py`.
 
-### Recommend usage
+### Recommended usage
 The recommended way of using this script is by having a cron job run the script daily.
 
 If you host the .ics files on a webserver, you can subscribe to them using Google Calendar or Outlook Calendar.
